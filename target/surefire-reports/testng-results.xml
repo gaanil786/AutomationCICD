@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-07T16:22:33 IST" name="Loan Department" finished-at="2025-11-07T16:22:33 IST" duration-ms="92">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day1.Demo1()[pri:0, instance:test.Day1@5b239d7d]" name="Demo1" class="test.Day1"/>
+        <method signature="Day2.Demo3()[pri:0, instance:test.Day2@37afeb11]" name="Demo3" class="test.Day2"/>
+        <method signature="Day2.Demo4()[pri:0, instance:test.Day2@37afeb11]" name="Demo4" class="test.Day2"/>
+        <method signature="Day4.MobileLogInHomeLoan()[pri:0, instance:test.Day4@41d477ed]" name="MobileLogInHomeLoan" class="test.Day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-11-07T16:22:33 IST" name="Car Loan" finished-at="2025-11-07T16:22:33 IST" duration-ms="73">
+      <class name="test.Day3">
+        <test-method is-config="true" signature="Demo5()[pri:0, instance:test.Day3@4218d6a3]" started-at="2025-11-07T16:22:33 IST" name="Demo5" finished-at="2025-11-07T16:22:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo5 -->
+        <test-method signature="MobileLogInCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Day3@4218d6a3]" started-at="2025-11-07T16:22:33 IST" name="MobileLogInCarLoan" finished-at="2025-11-07T16:22:33 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogInCarLoan -->
+        <test-method signature="MobileSignInCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Day3@4218d6a3]" started-at="2025-11-07T16:22:33 IST" name="MobileSignInCarLoan" data-provider="getData" finished-at="2025-11-07T16:22:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignInCarLoan -->
+        <test-method signature="MobileSignInCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Day3@4218d6a3]" started-at="2025-11-07T16:22:33 IST" name="MobileSignInCarLoan" data-provider="getData" finished-at="2025-11-07T16:22:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignInCarLoan -->
+        <test-method signature="MobileSignInCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Day3@4218d6a3]" started-at="2025-11-07T16:22:33 IST" name="MobileSignInCarLoan" data-provider="getData" finished-at="2025-11-07T16:22:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignInCarLoan -->
+        <test-method signature="MobileSignOutCarLoan()[pri:0, instance:test.Day3@4218d6a3]" started-at="2025-11-07T16:22:33 IST" name="MobileSignOutCarLoan" finished-at="2025-11-07T16:22:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignOutCarLoan -->
+      </class> <!-- test.Day3 -->
+    </test> <!-- Car Loan -->
+    <test started-at="2025-11-07T16:22:33 IST" name="Personal Loan" finished-at="2025-11-07T16:22:33 IST" duration-ms="92">
+      <class name="test.Day1">
+        <test-method signature="Demo()[pri:0, instance:test.Day1@5b239d7d]" started-at="2025-11-07T16:22:33 IST" name="Demo" finished-at="2025-11-07T16:22:33 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="Demo1()[pri:0, instance:test.Day1@5b239d7d]" started-at="2025-11-07T16:22:33 IST" name="Demo1" finished-at="2025-11-07T16:22:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method signature="Demo1_1()[pri:0, instance:test.Day1@5b239d7d]" started-at="2025-11-07T16:22:33 IST" name="Demo1_1" finished-at="2025-11-07T16:22:33 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1_1 -->
+      </class> <!-- test.Day1 -->
+      <class name="test.Day2">
+        <test-method is-config="true" signature="Demo5()[pri:0, instance:test.Day2@37afeb11]" started-at="2025-11-07T16:22:33 IST" name="Demo5" finished-at="2025-11-07T16:22:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo5 -->
+        <test-method is-config="true" signature="Itsbeforeclass()[pri:0, instance:test.Day2@37afeb11]" started-at="2025-11-07T16:22:33 IST" name="Itsbeforeclass" finished-at="2025-11-07T16:22:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Itsbeforeclass -->
+        <test-method is-config="true" signature="ItsbeforeMethod()[pri:0, instance:test.Day2@37afeb11]" started-at="2025-11-07T16:22:33 IST" name="ItsbeforeMethod" finished-at="2025-11-07T16:22:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItsbeforeMethod -->
+        <test-method signature="Demo3()[pri:0, instance:test.Day2@37afeb11]" started-at="2025-11-07T16:22:33 IST" name="Demo3" finished-at="2025-11-07T16:22:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+        <test-method is-config="true" signature="ItsbeforeMethod()[pri:0, instance:test.Day2@37afeb11]" started-at="2025-11-07T16:22:33 IST" name="ItsbeforeMethod" finished-at="2025-11-07T16:22:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItsbeforeMethod -->
+        <test-method signature="Demo4()[pri:0, instance:test.Day2@37afeb11]" started-at="2025-11-07T16:22:33 IST" name="Demo4" finished-at="2025-11-07T16:22:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo4 -->
+        <test-method is-config="true" signature="Itsafterclass()[pri:0, instance:test.Day2@37afeb11]" started-at="2025-11-07T16:22:33 IST" name="Itsafterclass" finished-at="2025-11-07T16:22:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Itsafterclass -->
+      </class> <!-- test.Day2 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2025-11-07T16:22:33 IST" name="Home Loan" finished-at="2025-11-07T16:22:33 IST" duration-ms="73">
+      <class name="test.Day1">
+        <test-method is-config="true" signature="ItsAftersuite()[pri:0, instance:test.Day1@5b239d7d]" started-at="2025-11-07T16:22:33 IST" name="ItsAftersuite" finished-at="2025-11-07T16:22:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItsAftersuite -->
+      </class> <!-- test.Day1 -->
+      <class name="test.Day4">
+        <test-method is-config="true" signature="Itsbeforesuite()[pri:0, instance:test.Day4@41d477ed]" started-at="2025-11-07T16:22:33 IST" name="Itsbeforesuite" finished-at="2025-11-07T16:22:33 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Itsbeforesuite -->
+        <test-method signature="LoginAPIHomeLoan(java.lang.String)[pri:0, instance:test.Day4@41d477ed]" started-at="2025-11-07T16:22:33 IST" name="LoginAPIHomeLoan" finished-at="2025-11-07T16:22:33 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[homeLoan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method signature="MobileLogInHomeLoan()[pri:0, instance:test.Day4@41d477ed]" started-at="2025-11-07T16:22:33 IST" name="MobileLogInHomeLoan" finished-at="2025-11-07T16:22:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogInHomeLoan -->
+        <test-method signature="WebLoginHomeLoan()[pri:0, instance:test.Day4@41d477ed]" started-at="2025-11-07T16:22:33 IST" name="WebLoginHomeLoan" finished-at="2025-11-07T16:22:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+      </class> <!-- test.Day4 -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
